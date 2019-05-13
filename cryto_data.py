@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import requests
-import datetime
 import pandas as pd
 from scipy import stats
 import numpy as np
