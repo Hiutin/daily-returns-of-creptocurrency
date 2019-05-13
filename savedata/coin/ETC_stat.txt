@@ -1,0 +1,36 @@
+number of samples: 1019
+time begin: 2016-07-27 08:00:00
+time end: 2019-05-12 08:00:00
+
+++++++++++ empirical stat ++++++++++
+mean: 0.003765026094485649
+var: 0.00517315627224439
+skewness: 1.551160118828585
+kurtosis: 12.143012326687698
+=========== end stat ===========
+
+++++++++++ student t fit stat ++++++++++
+degree of freedom: 2.3360622947742358
+loc parameter: -0.0022057174545315533
+scale parameter: 0.03837633042696888
+========== end fit stat ==========
+
+++++++++++ normality of Shapiro-Wilk (SW) test ++++++++++
+statistic: 0.8799641728401184
+p-value: 2.496314897460915e-27
+========== end SW test ==========
+
+++++++++++ normality of Kolmogrov-Smirnov (KS) test ++++++++++
+statistic: 0.1083968079295684
+p-value: 6.994771272992427e-11
+========== end KS test ==========
+
+++++++++++ student t of Kolmogrov-Smirnov (KS) test ++++++++++
+statistic: 0.029823000901008034
+p-value: 0.3200361427562058
+========== end KS test ==========
+
+++++++++++ lognorm of Kolmogrov-Smirnov (KS) test ++++++++++
+statistic: 0.09516008338761592
+p-value: 1.7540900764601163e-08
+========== end KS test ==========
