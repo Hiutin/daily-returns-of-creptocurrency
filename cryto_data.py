@@ -1,11 +1,8 @@
-# -*- coding: utf-8 -*-
-
 import pandas as pd
 from scipy import stats
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
-
 from server.comparisoncom import ComparisonCom
 
 
@@ -124,7 +121,6 @@ mu = np.mean(ret)
 sigma = np.sqrt(np.var(ret))
 data_normalized = (ret-mu)/sigma
 [frequency, bins] = cal_density_real_data(data_normalized)
-
 x = np.linspace(min(bins), max(bins), len(bins[1:]))
 
 matplotlib.rcParams.update({'font.size': 14})
